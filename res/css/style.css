@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Aug-2016, 09:32:45
+    Author     : Sadiq
+*/
+.main-page{
+    background-image: url('../img/fce.png') !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+/*    background-size: 80%;*/
+   
+}
+.main-content{
+    height: 400px;
+}
+
+@media print
+{
+    .hidden-print {
+        display: none !important;
+    }
+}
+.icon-block {
+  padding: 0 15px;
+  display: inline-block;
+  
+  
+}
+.form_margin{
+   margin: 0px !important;
+}
+.exam_form_style {
+  
+    height: 15px !important;
+}
+.form_style {
+  
+    height: 30px !important;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+ 
+}
+#frontimage{
+    width: 100%;
+    height:10%;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+}
+/*.position-right{
+  position: relative;
+right: 0;  
+}*/
+
+
